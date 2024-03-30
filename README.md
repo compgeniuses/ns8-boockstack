@@ -13,6 +13,10 @@ The output of the command will return the instance name.
 Output example:
 
     {"module_id": "bookstack1", "image_name": "bookstack", "image_url": "ghcr.io/compgeniuses/bookstack:latest"}
+## Default Credentials
+Initial Login Credetials for boockstack
+- `USername`: admin@admin.com
+- `Password`: password
 
 ## Configure
 
