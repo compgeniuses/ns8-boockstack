@@ -22,7 +22,6 @@ ExecStart=/usr/bin/podman run --conmon-pidfile %t/bookstack-app.pid \
     --cidfile %t/bookstack-app.ctr-id --cgroups=no-conmon \
     --pod-id-file %t/bookstack.pod-id --replace -d --name  bookstack-app \
     --volume bookstack-app:/config:Z \
-    --volume ./config:/tmp:Z \
     --env=BOOKSTACK_* \
     --env APP_URL=${APP_URL} \
     --env DB_HOST=127.0.0.1 \
