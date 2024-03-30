@@ -25,7 +25,6 @@ ExecStart=/usr/bin/podman run --conmon-pidfile %t/bookstack-app.pid \
     --volume ./config:/tmp:Z \
     --env=BOOKSTACK_* \
     --env APP_URL=${APP_URL} \
-    --env DB_TYPE=mysql \
     --env DB_HOST=127.0.0.1 \
     --env DB_PORT=3306 \
     --env DB_USER=bookstack \
