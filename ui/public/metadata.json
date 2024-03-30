@@ -1,19 +1,19 @@
 {
-  "name": "kickstart",
+  "name": "bookstack",
   "description": {
-    "en": "My kickstart module"
+    "en": "Simple & Free Wiki Software"
   },
   "categories": [],
   "authors": [
     {
-      "name": "Name Surname",
-      "email": "author@yourmail.org"
+      "name": "Martin Bhuong",
+      "email": "martin@genius.ke"
     }
   ],
   "docs": {
-    "documentation_url": "https://docs.kickstart.com/",
-    "bug_url": "https://github.com/NethServer/dev",
-    "code_url": "https://github.com/author/ns8-kickstart"
+    "documentation_url": "https://www.bookstackapp.com/docs/",
+    "bug_url": "https://github.com/compgeniuses/ns8-bookstack/issues",
+    "code_url": "https://github.com/compgeniuses/ns8-bookstack"
   },
-  "source": "ghcr.io/nethserver/kickstart"
+  "source": "ghcr.io/compgeniuses/bookstack"
 }
