@@ -11,7 +11,7 @@ set -e
 # Prepare variables for later use
 images=()
 # The image will be pushed to GitHub container registry
-repobase="${REPOBASE:-ghcr.io/compgeniuses}"
+repobase="${REPOBASE:-ghcr.io/geniusdynamics}"
 # Configure the image name
 reponame="bookstack"
 BOOKSTACK_TAG="24.02.2"
